@@ -1,4 +1,4 @@
-# chat_server
+# echo_server
 
 FIXME: write description
 
@@ -8,6 +8,6 @@ FIXME: write
 
 ## License
 
-Copyright (C) 2012 FIXME
+Copyright (C) 2012 Angeleah Daidone
 
 Distributed under the Eclipse Public License, the same as Clojure.
