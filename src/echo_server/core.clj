@@ -13,7 +13,6 @@
 ;				 :else input))
 ;			(if (not= "quit" input) (recur (read-line))))))
 
-
 (defn process-message [input]
 	(cond (= "quit" input) "goodbye."
 		  (= "what is the meaning of life?" input) "42"

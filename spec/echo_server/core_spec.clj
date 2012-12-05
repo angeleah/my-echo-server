@@ -14,6 +14,10 @@
 		(should= "hello" (process-message "hello")))
 )
 
+
 (describe "it should be able to process a stream"
 
+	(it "should return 'goodbye.' if quit was typed"
+		(should= "goodbye.\n"
+			(with-out-str (with-in-str "quit" (process-stream)))))
 )
