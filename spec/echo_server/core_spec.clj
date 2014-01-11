@@ -1,6 +1,6 @@
 (ns echo_server.core-spec
-  (:use [speclj.core] 
-		[echo_server.core]))
+  (:require [speclj.core :refer :all]
+		[echo_server.core :refer :all]))
 
 (describe "it should be able to process the message based on what is typed to the echo server"
 
@@ -21,3 +21,4 @@
 		(should= "goodbye.\n"
 			(with-out-str (with-in-str "quit" (process-stream)))))
 )
+
