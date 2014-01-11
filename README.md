@@ -5,7 +5,7 @@ This was an exercise to get me familiar with a basic echo server.  You can run i
 Usage:
 ------
 - Running the program:
-  + First, you need to make sure that you have a Java version greater than 1.5.  $ java -version to check this.
+  + First, you need to make sure that you have a Java version greater than 1.5 ($ java -version to check this.)
   + Next you need [Leiningen](https://github.com/technomancy/leiningen). The quickes way to that is to use [Homebrew](http://brew.sh/) if you have that installed.( brew install Leiningen)
   If you do not have Homebrew, follow the instructions on the Leiningen page.
   + Once you have that set up, you can clone the project, cd to the root, and type lein run.  It will look like nothing is happening.  That is the server running. Leave it open and running.
