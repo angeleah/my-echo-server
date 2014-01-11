@@ -18,4 +18,3 @@ Usage:
   + Next you need [Leiningen](https://github.com/technomancy/leiningen). The quickes way to that is to use [Homebrew](http://brew.sh/) if you have that installed.( brew install Leiningen)
   If you do not have Homebrew, follow the instructions on the Leiningen page.
   + Once you have that set up, you can clone the project, cd to the root, and type lein spec.
-  + You should see 22 examples and 0 failures.
